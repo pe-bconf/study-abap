@@ -57,7 +57,7 @@ SELECTION-SCREEN:
 	                            p_tb_name
 	                            p_ls_key_objid . 
 ...
-	* 데이터 입력
+* 데이터 입력
 	IF p_tb_name = 'SPFLI'.
 	  SET PROPERTY OF GO_SHEET 'Name' = 'SPFLI'.
 	  PERFORM FILL_CELL USING GO_APPLICATION 01: 01 'MANDT',
