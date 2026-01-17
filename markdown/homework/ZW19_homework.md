@@ -85,7 +85,7 @@ AA -> (빈값)
 				- 참조형 변수가 외부로 부터 전달됐을 때도 마찬가지로 외부에서 전달받은 참조형 변수가 가리키는 주소를 가진 내부용 변수에 이를 복사하여 사용하고 정상 종료 시에만 변경된 주소값을 외부에서 전달해준 변수에 할당
 				- 예
 					- 대상 변수  
-					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image050.png?raw=true)  						 
+					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image050.png?raw=true)  
 					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image052.png?raw=true)   
 					- 대상 form  
 					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image054.png?raw=true)   
