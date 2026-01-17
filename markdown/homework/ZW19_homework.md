@@ -1,6 +1,6 @@
 
 - 디버깅 중 값 변조
-	- 현재 상태의 필드 값 직접 할당
+	- 현재 상태의 필드 값 직접 할당  
     ![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image001.png?raw=true)
 	
 		1. 값 변조 테스트
@@ -9,7 +9,7 @@
 			a. 예외 발생 조건문에 true 상태로 값 변경
 				1) 위 케이스는 값을 초기화 직후 값 상태로 변경(빈값)
 AA -> (빈값)
-			a. 예외 발견 분기 흐름 진행 확인
+			a. 예외 발견 분기 흐름 진행 확인  
 			    ![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image005.png?raw=true)
 
 		1. 결과
@@ -21,26 +21,25 @@ AA -> (빈값)
 	- 기본적으로 Call by Reference로 perform에 전달되는 값은 주소가 전달되므로 내부에서 값이 바뀌면 주소가 가리키는 대상의 실제 값을 바꾸는 것이므로 변경된 값이 할당되며, 참조형 변수도 동일하게 동작
 		- form using
 			- 대상 변수  
-			![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image009.png?raw=true)
-			
-			- 대상 form 선언
+			![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image009.png?raw=true)			
+			- 대상 form 선언  
 			![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image011.png?raw=true)
 			
 			- debugging 
-				- 값 변경 전
+				- 값 변경 전  
 				![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image013.png?raw=true)
-				- 값 변경 후
+				- 값 변경 후  
 				![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image015.png?raw=true)
 				
 		- form changing
 			- 대상 변수  
 			![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image009.png?raw=true)
-			- 대상 form 선언
+			- 대상 form 선언  
 			![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image017.png?raw=true)
 			- debugging
 				- 값 변경 전  
 				![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image019.png?raw=true)
-				- 값 변경 후
+				- 값 변경 후  
 				![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image021.png?raw=true)
 	
 	- USING
@@ -50,7 +49,7 @@ AA -> (빈값)
 				- 예
 					- 대상 변수  
 					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image023.png?raw=true)
-					- 대상 form
+					- 대상 form  
 					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image025.png?raw=true)
 					- debugging
 						- 변경 전  
@@ -64,17 +63,17 @@ AA -> (빈값)
 					- 대상 변수  
 					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image033.png?raw=true) 
 					- 대상 form  
-					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image035.png?raw=true) 
+					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image035.jpg?raw=true) 
 					- debugging
-						- 변경 전
-						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image036.png?raw=true) 
-						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image038.png?raw=true) 
-						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image040.png?raw=true) 
-						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image042.png?raw=true) 
-						- 변경 후
+						- 변경 전    
+						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image036.png?raw=true)  
+						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image038.png?raw=true)   
+						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image040.png?raw=true)  
+						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image042.png?raw=true)   
+						- 변경 후  
 						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image044.png?raw=true)  
 						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image046.png?raw=true)  
-						- 종료 후
+						- 종료 후  
 						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image048.png?raw=true)   
 	
 	
@@ -91,22 +90,22 @@ AA -> (빈값)
 					- 대상 form  
 					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image054.png?raw=true)   
 					- debugging
-						- 변경 전
+						- 변경 전  
 						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image056.png?raw=true)   
 						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image058.png?raw=true)    
 						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image060.png?raw=true)    
 						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image062.png?raw=true)    
-						- 변경 후(일반변수)
+						- 변경 후(일반변수)  
 						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image064.png?raw=true)    
-						- 변경 후(참조형변수)
+						- 변경 후(참조형변수)  
 						   - 새로운 구조체 생성 후 함수로 전달된 변수에 값 할당  
 						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image066.png?raw=true)    
 						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image068.png?raw=true)    													
-						  - 함수로 전달된 변수의 주소 유지 확인
-						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image070.png?raw=true)
-						- 함수종료 후
-						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image072.png?raw=true) 
-						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image074.png?raw=true)
+						  - 함수로 전달된 변수의 주소 유지 확인  
+						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image070.png?raw=true)  
+						- 함수종료 후  
+						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image072.png?raw=true)  
+						![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image074.png?raw=true)  
 						
 - 변수
 	- TYPE
@@ -135,12 +134,12 @@ AA -> (빈값)
 			- 동일 타입의 변수에 동일 타입의 값을 할당하면 내용이 복사되어 할당
 				- 예
 					- 할당 전  
-					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image076.png?raw=true)
-					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image078.png?raw=true)
-					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image080.png?raw=true)
+					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image076.png?raw=true)  
+					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image078.png?raw=true)  
+					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image080.png?raw=true)  
 					- 할당 후  
-					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image082.png?raw=true)
-					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image084.png?raw=true)
+					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image082.png?raw=true)  
+					![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image084.png?raw=true)  
 					
 			- 참조형 변수이지만 클래스형태가 아니므로 객체지향 특성을 이용할 수 있는 대상이 아님
 		- Object 참조(Class 타입)
