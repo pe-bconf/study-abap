@@ -1,19 +1,18 @@
+#### debugging 값 변조, perform, 변수 정리
 
 - 디버깅 중 값 변조
 	- 현재 상태의 필드 값 직접 할당  
     ![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image001.png?raw=true)
-	
-		1. 값 변조 테스트
-			a. GS_ZSC-CARRID  필드를 조회 변수에 등록
-			a. ![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image003.png?raw=true) 버튼으로 입력창 활성
-			a. 예외 발생 조건문에 true 상태로 값 변경
-				1) 위 케이스는 값을 초기화 직후 값 상태로 변경(빈값)
-AA -> (빈값)
-			a. 예외 발견 분기 흐름 진행 확인  
+     1. 값 변조 테스트
+		  1. GS_ZSC-CARRID  필드를 조회 변수에 등록
+		  1. ![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image003.png?raw=true) 버튼으로 입력창 활성  
+		  1. 예외 발생 조건문에 true 판단 되도록 상태로 값 변경
+				> 위 케이스는 값을 초기화 직후 값 상태로 변경  
+				  AA -> (빈값)
+		  1. 예외 발견 분기 흐름 진행 확인  
 			    ![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image005.png?raw=true)
-
 		1. 결과
-			a. 변조한 첫 행의 인식이 디버깅에서 변경되어 반환된 내용
+			> 변조한 첫 행의 인식이 디버깅에서 변경되어 반환된 내용
 			![](https://github.com/pe-bconf/study-abap/blob/main/attach/zw19_homework/image007.png?raw=true)
 			
 
